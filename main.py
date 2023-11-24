@@ -3,7 +3,7 @@ import random
 while True:
     player_choice = input("Enter a choice (rock , paper, scissors): ")
     possible_choices = ["rock", "paper", "scissors"]
-    computer_choice = random.choice(possible_choice)
+    computer_choice = random.choice(possible_choices)
     print(f"\nYou chose {player_choice}, computer chose {computer_choice}.\n")
 
     if player_choice == computer_choice:
