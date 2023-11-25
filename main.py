@@ -12,17 +12,17 @@ while True:
         if computer_choice == "scissors":
             print("Rock smashes scissors! You win!")
         else:
-            print("Paper covers rock! You lose.")
+            print("Paper covers rock! Computer Win.")
     elif player_choice == "paper":
         if computer_choice == "rock":
             print("Paper covers rock! You win!")
         else:
-            print("Scissors cuts paper! You lose.")
+            print("Scissors cuts paper! Computer Win.")
     elif player_choice == "scissors":
         if computer_choice == "paper":
             print("Scissors cuts paper! You win!")
         else:
-            print("Rock smashes scissors! You lose.")
+            print("Rock smashes scissors! Computer Win.")
 
     play_again = input("Play again? (y/n): ")
     if play_again.lower() != "y":
