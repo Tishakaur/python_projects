@@ -7,12 +7,12 @@ b2 = {"name":"Mitchell","age":22,"marks":74}
 b3 = {"name":"Head","age":19,"marks":65}
 
 c1 = {"name": "shine","age":27,"marks":100}
-C2 = {"name": "Root","age":26,"marks":89}
+c2 = {"name": "Root","age":26,"marks":89}
 c3 = {"name": "sia ","age":18,"marks":40}
 
 studentsA = { 1:a1 ,2:a2, 3:a3}
 studentsB = { 1:b1 ,2:b2 ,3:b3}
-studentsC = { 1:c1 ,2:C2, 3:c3}
+studentsC = { 1:c1 ,2:c2, 3:c3}
 
 print("Records of Class A")
 print(studentsA[1])
